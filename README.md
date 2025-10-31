@@ -35,10 +35,7 @@ The purpose of this homework is to gain hands-on familiarity with code-structure
 | Category | Tool | Purpose |
 |-----------|------|----------|
 | Static Analysis | **Pyreverse (Pylint)** | Generate class and package UML diagrams |
-| Static Analysis | **Pydeps** | Visualize module import dependencies |
-| Static Analysis | **Django-Extensions** | Generate ER diagram of Django ORM models |
 | Dynamic Analysis | **AppMap (optional)** | Record runtime behavior and produce sequence diagrams |
-| Visualization | **Graphviz** | Render `.dot` files to PNG/SVG |
 
 ---
 
