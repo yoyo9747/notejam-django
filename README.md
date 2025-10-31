@@ -54,3 +54,19 @@ Build a containerized Python 2.7 + Django 1.6 environment:
 ```bash
 docker build -t notejam-dj16 .
 
+### 3. Run Container
+Run interactively and mount your current directory into /app:
+
+```bash
+docker run -it -p 8000:8000 -v .:/app notejam-dj16
+
+🚀 Running the Application
+Inside the container:
+
+```bash
+cd /app/notejam
+./manage.py syncdb
+./manage.py migrate
+./manage.py runserver 0.0.0.0:8000
+
+Then open http://127.0.0.1:8000
